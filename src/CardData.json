@@ -1,0 +1,58 @@
+ [
+    {
+        "image":"/public/manisha.jpg",
+        "name":"Manisha",
+        "discription":"The wave sometimes rises and sometimes falls but does not stop, in the same way my learning sometimes increases and sometimes decreases but does not stop. ",
+        "role":"Backend Developer",
+        "linkdin":"http://tinyurl.com/3samnvm5"
+    },
+    {
+        "image":"/public/pallavi.jpg",
+        "name":"Pallavi Thakur",
+        "discription":"Whenever any problem arises, I become curious to know about it. I also like meeting new people and making new friends.",
+        "role":"Front-end Developer",
+        "linkdin":"https://www.linkedin.com/in/pallavi-thakur-7857a6288/"
+    },
+    {
+        "image":"/public/muskan.jpg",
+        "name":"Muskan",
+        "discription":" I consider problems as learning opportunities. I have a sweet tooth and a sweet personality ",
+        "role":"Backend developer",
+        "linkdin":"http://tinyurl.com/yhj4u7k8"
+    },
+    {
+        "image":"",
+        "name":"Shivi Yadav",
+        "discription":"I do my work with Focus and always try to give my best. I learn everything quickly. Night time is the best time to work for me. ",
+        "role":"Front-end Developer",
+        "linkdin":"https://www.linkedin.com/in/shivi-yadav-00286627a/"
+    },
+    {
+        "image":"/public/neha.jpg",
+        "name":"Neha Raw",
+        "discription":" Solving problems brings me happiness. I also like to make other people laugh. Work is always my first priority. ",
+        "role":"Write User Story + Social Media",
+        "linkdin":"http://tinyurl.com/4nnb382j"
+    },
+    {
+        "image":"/public/sangeeta.jpg",
+        "name":"Sangeeta lakra",
+        "discription":"",
+        "role":"Write User Story + Social Media",
+        "linkdin":"https://www.linkedin.com/in/sangeeta-lakra-24782727a/"
+    },
+    {
+        "image":"/public/meenu.jpg",
+        "name":"Meenu Yadav",
+        "discription":"",
+        "role":"",
+        "linkdin":"http://tinyurl.com/5b7ztf83"
+    },
+    {
+        "image":"/public/Simran.jpg",
+        "name":"Simran",
+        "discription":" I love the freedom the birds have. I want to keep flying and moving forward just like the birds.",
+        "role":"",
+        "linkdin":"http://tinyurl.com/5n7bt52r"
+    }
+]

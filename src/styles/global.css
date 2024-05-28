@@ -1,5 +1,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-
+body{
+    background-color: rgb(246, 246, 253);
+}
 .nav-bar {
     background-color: #67b1ea;
     width: 100%;
@@ -16,11 +18,11 @@ a {
     font-size: 22px;
     font-weight: 500;
     padding: 15px;
+    font-family: system-ui, sans-serif;
 }
 
 .main-container {
-    border: 1px solid black;
-    margin-top: 10px;
+      margin-top: 10px;
 }
 
 .container1 {
@@ -31,12 +33,11 @@ a {
     margin: auto;
     margin-top: 20px;
     width: 90%;
-    border: 1px solid black;
+   
 
 }
 .container2{
     width: 90%;
-    border: 1px solid black;
     margin: auto;
     margin-top: 20px;
    
@@ -59,9 +60,68 @@ img {
     width: 100%;
 }
 
-.footer-container {
+
+
+
+ /*------ About page -------- */
+
+.cards-container{
     display: flex;
-    justify-content: space-evenly;
-    
-    height: 10%;
+    gap: 40px;
+    width: 90%;
+   margin: auto;
+    flex-wrap: wrap;
+   
+   
+}
+.card{
+    width: 20rem;
+    border: 1px solid black; 
+    margin-top: 12px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.card-content{
+    padding: 10px;
+}
+.card-img-top{
+    height: 17rem;
+}
+.fa-linkedin{
+    font-size: 24px;  
+}
+ /* footer  */
+
+
+footer {
+       margin-top: 20px;
+    background-color: #afd6fd; 
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+.icon-link i {
+    font-size: 24px;
+    color: white; 
+    background-color: rgb(15, 16, 16);
+    width: 44px;
+    height: 35px;
+    text-align: center;
+    border-radius: 15px;
+   
+    transition: color 0.3s ease;
+}
+
+.icon-link:hover i {
+    color: #007bff; 
+}
+
+/* Media query for phone screens */
+@media (max-width: 768px) {
+    .icon-link i {
+        font-size: 24px; 
+    }
 }

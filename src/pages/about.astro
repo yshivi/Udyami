@@ -1,5 +1,19 @@
 ---
 import Header from '../components/Header.astro'
+import Card from '../components/Card.astro'
+import CardData from '../CardData.json'
+import Footer from '../components/Footer.astro'
+
+
+
 ---
 <Header/>
-<h1>About</h1>
+<div class = "cards-container">
+{CardData.map((item,index) => {
+    return(
+        <Card  item={item}/>
+    )
+})}
+</div>
+<Footer />
+
