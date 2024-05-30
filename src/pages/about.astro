@@ -1,19 +1,102 @@
 ---
 import Header from '../components/Header.astro'
-import Card from '../components/Card.astro'
-import CardData from '../CardData.json'
 import Footer from '../components/Footer.astro'
 
 
 
 ---
-<Header/>
+<Header />
 <div class = "cards-container">
-{CardData.map((item) => {
-    return(
-        <Card  item={item}/>
-    )
-})}
+ <div class="card">    
+      <div class="card-text">
+        <h2 >Pallavi Thakur</h2>
+		<h3>Frontend Developer</h3>
+		<p class="card-text">Whenever any problem arises, I become <br/>curious to know about it. I also like meeting new<br/> people and making new friends.</p>
+        <a href="https://www.linkedin.com/in/pallavi-thakur-7857a6288/" class="icon-link"><i class="fa fa-linkedin"></i></a>
+      </div> 
+       <div class= "card-content">
+        <img src="/public/pallavi.jpg"  alt="...">  
+      </div>      
+      </div>
+       <div class="card"> 
+            <div class= "card-content">
+               <img src="/public/manisha.jpg"  alt="...">  
+            </div>    
+            <div class="card-text right">
+             <h2 >Manisha</h2>
+		     <h3>Backend Developer</h3>
+		     <p class="card-text">The wave sometimes rises and sometimes<br/> falls but does not stop, in the same way my<br/> learning sometimes increases and sometimes<br/> decreases but does not stop. </p>
+             <a href="http://tinyurl.com/3samnvm5" class="icon-link"><i class="fa fa-linkedin"></i></a>
+            </div> 
+        </div>
+        <div class="card">    
+           <div class="card-text">
+             <h2 >Muskan</h2>
+		     <h3>Backend Developer</h3>
+		     <p class="card-text"> I consider problems as learning<br/> opportunities. I have a sweet tooth <br/>and a sweet personality </p>
+             <a href="http://tinyurl.com/yhj4u7k8" class="icon-link"><i class="fa fa-linkedin"></i></a>
+           </div> 
+           <div class= "card-content">
+               <img src="/public/muskan.jpg"  alt="...">  
+           </div>      
+       </div>
+       <div class="card">
+           <div class= "card-content">
+             <img src=""  alt="...">  
+           </div>    
+           <div class="card-text  right">
+             <h2 >Shivi Yadav</h2>
+		     <h3>Frontend Developer</h3>
+		     <p class="card-text">I do my work with Focus and always try to give  <br/> my best. I learn everything quickly. Night <br/>  time is the best time to work for me.</p>
+             <a href="https://www.linkedin.com/in/shivi-yadav-00286627a/" class="icon-link"><i class="fa fa-linkedin"></i></a>
+            </div> 
+       </div>
+       <div class="card">    
+          <div class="card-text">
+            <h2 >Neha Raw</h2>
+		    <h3>Write user story + Social media</h3>
+		    <p class="card-text">Solving problems brings me happiness. I also<br/> like to make other people laugh. Work is<br/> always my first priority.</p>
+            <a href="http://tinyurl.com/4nnb382j" class="icon-link"><i class="fa fa-linkedin"></i></a>
+          </div> 
+          <div class= "card-content">
+            <img src="/public/neha.jpg"  alt="...">  
+          </div>      
+        </div>
+        <div class="card"> 
+             <div class= "card-content">
+                  <img src="/public/sangeeta.jpg"  alt="...">  
+              </div>     
+               <div class="card-text  right">
+                 <h2 >Sangeeta Lakra</h2>
+	             <h3>Write user story</h3>
+		         <p class="card-text"></p>
+                 <a href="https://www.linkedin.com/in/sangeeta-lakra-24782727a/" class="icon-link"><i class="fa fa-linkedin"></i></a>
+           </div> 
+             
+       </div>
+       <div class="card">    
+            <div class="card-text">
+                <h2 >Meenu Yadav</h2>
+		        <h3></h3>
+		        <p class="card-text">I approach problems with a smile. I like to <br/>think calmly about the problem and find a solution. I <br/>love to laugh and make everyone laugh.</p>
+                <a href="http://tinyurl.com/5b7ztf83" class="icon-link"><i class="fa fa-linkedin"></i></a>
+           </div> 
+           <div class= "card-content">
+             <img src="/public/meenu.jpg"  alt="...">  
+          </div>      
+          </div>
+        <div class="card"> 
+              <div class= "card-content">
+                <img src="/public/Simran.jpg"  alt="...">  
+             </div>   
+              <div class="card-text  right">
+                <h2 >Simran Lambha</h2>
+		        <h3> Social media</h3>
+		        <p class="card-text">I love the freedom the birds have. I want<br/> to keep flying and moving forward just like the birds.</p>
+                <a href="http://tinyurl.com/5n7bt52r" class="icon-link"><i class="fa fa-linkedin"></i></a>
+              </div> 
+                  
+        </div>
 </div>
 <Footer />
 
