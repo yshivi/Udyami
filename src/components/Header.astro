@@ -4,29 +4,27 @@ import "../styles/global.css"
 ---
 
 
-<nav class='nav-bar'>
+<nav class="nav-bar">
   <div class="nav-box1">
-   <a href="/"> <img  src="public/udyami-logo.png" class="logo" alt="..."> </a>  
-   </div>
-   <div class = "nav-box2">
-      <a href = "/">Home</a>
-    <a href = "/about">About</a>
-    <a href = "/support">Our Supports</a>
-    <a href = "/project">Project</a>
-      <a href = "/blog">Blog</a>
-      <a href = "/contact">Contact</a>
-      <div class ="header-icon">
-        <i class="fa fa-bars"></i>
-      </div>
-   </div>
-  
+    <a href="/"> <img src="public/udyami-logo.png" class="logo" alt="Udyami Technology Logo"> </a>
+  </div>
+  <div class="nav-box2">
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/support">Our Supports</a>
+    <a href="/project">Project</a>
+    <a href="/blog">Blog</a>
+    <a href="/contact">Contact</a>
+    <div class="header-icon" onclick="toggleMobileMenu()">
+      <i class="fa fa-bars"></i>
+    </div>
+  </div>
 </nav>
-<div class="mobile-menu">
- <a href = "/">Home</a>
-  <a href = "/about">About</a>
-  <a href = "/support">Our Supports</a>
-  <a href = "/project">Project</a>
-   <a href = "/blog">Blog</a>
-   <a href = "/contact">Contact</a>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+  <a href="/support">Our Supports</a>
+  <a href="/project">Project</a>
+  <a href="/blog">Blog</a>
+  <a href="/contact">Contact</a>
 </div>
-
