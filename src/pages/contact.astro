@@ -1,13 +1,11 @@
 ---
-import Header from '../components/Header.astro'
-import Footer   from '../components/Footer.astro'
+import Layout from '../layouts/Layout.astro'
 ---
-<Header />
-<div class="contact-container">
-        <img src="/contact-img.jpg" alt="image" class="image">      
-        <div class="text"><span>Contact</span>-Us</div>
+<Layout>
+<div class="contact-container">           
+        <h1 >Contact-Us</h1>
         <div class="information-container">
-           <div class="text-udyami">Get connected with <span>Udyami-Tech</span></div>
+           <h2>Get connected with <span>Udyami-Tech</span></h2>
            <div class="contact-udyami">
              <div class="contact-card">
                <i class="fa fa-phone"></i>
@@ -18,10 +16,10 @@ import Footer   from '../components/Footer.astro'
                <span class="footer-contact-text">udyamitech@gmail.com</span>
              </div>
              <div class="contact-card">
-                <i class="fa fa-envelope"></i>
+               <i class="fa-solid fa-location-crosshairs"></i>
                 <span class="footer-contact-text">Saalig, Dhamshala, Bagiarra, Himachal Pradesh</span>
              </div>
            </div>
         </div>
     </div>
-<Footer />
+</Layout>

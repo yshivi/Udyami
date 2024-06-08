@@ -5,7 +5,7 @@ document.addEventListener('astro:page-load', () => {
     
     mobileMenuIcon.addEventListener("click", () => {
       if (mobileMenu.style.display === "none") {
-        mobileMenu.style.display = "block";
+        mobileMenu.style.display = "flex";
         
       } else {
         mobileMenu.style.display = "none";
