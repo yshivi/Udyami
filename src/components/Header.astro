@@ -19,7 +19,12 @@ import "../styles/global.css"
   .nav-box1 {
     display: flex;
     align-items: center;
+    color: white;
   }
+  .nav-box1 span{
+    color: yellowgreen;
+  }
+  
   
   .nav-box2 {
     display: flex;
@@ -29,7 +34,7 @@ import "../styles/global.css"
     display: none;
   }
   
-  .logo {
+  .nav-box1 .logo {
     height: 50px;
   }
   .nav-box2 a:hover{
@@ -62,7 +67,7 @@ import "../styles/global.css"
     left: 0;
     width: 100%;   
    margin-top: 2%;
-   margin-left: 10rem;
+   margin-left: 5rem;
   }
   
  .header-icon{
@@ -86,8 +91,9 @@ import "../styles/global.css"
 
 <nav class='nav-bar'>
   <div class="nav-box1">
-   <a href="/"> <img  src="/udyami-logo.png" class="logo" alt="..."> </a>  
-   </div>
+      <a href="/"> <img  src="/udyami logo.png" class="logo" alt="..."> </a>  
+    <p>Udyami</br><span>Technologies</span></p>
+  </div>
    <div class = "nav-box2">
     <a  href = "/">Home</a>
     <a  href = "/about">About</a>
