@@ -1,5 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Mochiy Pop One");
+@import '@fortawesome/fontawesome-free/css/all.min.css';
 
 body {
     background-color: #202022;
@@ -123,7 +124,7 @@ body {
 
 .cards-container {
     width: 100%;        
-    margin-top: 8%;
+    margin-top: 4.8rem;
   
 }
 
