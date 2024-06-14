@@ -212,7 +212,7 @@ i:hover{
 
 /*----------------------- support page--------  */
 .support-container {
-    margin-top: 35px;
+    margin-top: 5rem;
     width: 100%;  
 }
 
@@ -307,7 +307,7 @@ i:hover{
 .project-container {
    width: 100%;
    color: white;
-   margin-top: 10%;
+   margin-top: 5.2rem;
 }
 .project-container h1{
     text-align: center;
