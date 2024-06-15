@@ -3,7 +3,7 @@ import "../styles/global.css"
 
 ---
 <style>
-     .nav-bar {
+    .nav-bar {
     background-color: #202022;
     padding: 10px 20px;
     display: flex;
@@ -15,12 +15,33 @@ import "../styles/global.css"
     width: 100%;
     z-index: 1000;
   }
-  
+
   .nav-box1 {
-    display: flex;
-    align-items: center;
-    color: white;
-  }
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Removes underline from link */
+  color: inherit; /* Inherit text color from parent */
+}
+
+.logo {
+  max-height: 50px; /* Adjust as needed */
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.nav-box1 p {
+  margin: 0;
+  font-size: 16px; /* Adjust as needed */
+  line-height: 1.2;
+}
+
+.nav-box1 span {
+  font-size: 14px; 
+}
   .nav-box1 span{
     color: yellowgreen;
   }
@@ -91,9 +112,11 @@ import "../styles/global.css"
 
 <nav class='nav-bar'>
   <div class="nav-box1">
-      <a href="/"> <img  src="/udyami logo.png" class="logo" alt="..."> </a>  
-    <p>Udyami</br><span>Technologies</span></p>
-  </div>
+  <a href="/" class="nav-link"> 
+    <img src="/udyami logo.png" class="logo" alt="...">
+    <p>Udyami<br><span>Technologies</span></p>
+  </a>  
+</div>
    <div class = "nav-box2">
     <a  href = "/">Home</a>
     <a  href = "/about">About</a>
