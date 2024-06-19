@@ -3,141 +3,150 @@ import "../styles/global.css"
 
 ---
 <style>
-  .nav-bar {
-    background-color: #202022;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-  }
+ .nav-bar {
+      background-color: #202022;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+    }
 
-  .nav-box1 {
-  display: flex;
-  align-items: center;
-}
+    .nav-box1 {
+      display: flex;
+      align-items: center;
+    }
 
-.nav-link {
-  display: flex;
-  align-items: center;
-  text-decoration: none; /* Removes underline from link */
-  color: inherit; /* Inherit text color from parent */
-}
+    .nav-link {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+    }
 
-.logo {
-  max-height: 50px; /* Adjust as needed */
-  margin-right: 10px; /* Space between logo and text */
-}
+    .logo {
+      max-height: 50px;
+      margin-right: 10px;
+    }
 
-.nav-box1 p {
-  margin: 0;
-  font-size: 16px; /* Adjust as needed */
-  line-height: 1.2;
-}
+    .nav-box1 p {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.2;
+    }
 
-.nav-box1 span {
-  font-size: 14px; 
-}
-  .nav-box1 span{
-    color: yellowgreen;
-  }
-  
-  
-  .nav-box2 {
-    display: flex;
-    
-  }
-  .nav-box2 a{
-    display: none;
-  }
-  
-  .nav-box1 .logo {
-    height: 50px;
-  }
-  .nav-box2 a:hover{
-    color: yellowgreen;
-  }
- 
-  .nav-bar a {
-    text-decoration: none;
-    color: #ffff;
-    margin-left: 25px;
-    font-size: 1.9rem;
-    font-weight: 800;
-  }
-  .mobile-menu a{
-    color: yellowgreen;
-    text-decoration: none;
-  }
- 
-  .mobile-menu {
-    display: none;  
-    gap: 1.9rem;
-    flex-direction: column; 
-    justify-content: center;
-    align-items: center;
-    background-color:#202022 ; 
-    opacity: 0.9;   
-    padding: 20px;
-    position: fixed;
-    top: 60px;
-    left: 0;
-    width: 100%;   
-    margin-top: 2%;
-   margin-left: 5rem;
-  }
-  
- .header-icon{
-  color: white;
-  font-size: 2rem;
- }
- 
- 
- @media (min-width: 768px) {
- 
-  .nav-box2 a {
-    display: block;
-  }
-  .header-icon {
-    display: none;
-  }
-  .mobile-menu { 
-    display: none; 
-  }
-}
-</style>
+    .nav-box1 span {
+      font-size: 14px;
+    }
 
-<nav class='nav-bar'>
-  <div class="nav-box1">
-  <a href="/" class="nav-link"> 
-    <img src="/udyami logo.png" class="logo" alt="...">
-    <p>Udyami<br><span>Technologies</span></p>
-  </a>  
-</div>
-   <div class = "nav-box2">
-    <a  href = "/">Home</a>
-    <a  href = "/about">About</a>
-    <a  href = "/support">Our Supporters</a>
-    <a  href = "/project">Project</a>
-   
-    <a  href = "/contact">Contact</a> 
-    <div class ="header-icon">
-        <i class="fa fa-bars"></i>
+    .nav-box1 span {
+      color: yellowgreen;
+    }
+
+    .nav-box2 {
+      display: flex;
+    }
+
+    .nav-box2 a {
+      display: none;
+    }
+
+    .nav-box1 .logo {
+      height: 50px;
+    }
+
+    .nav-box2 a:hover {
+      color: yellowgreen;
+    }
+
+    .nav-bar a {
+      text-decoration: none;
+      color: #ffff;
+      margin-left: 25px;
+      font-size: 1.9rem;
+      font-weight: 800;
+    }
+
+    .mobile-menu a {
+      color: yellowgreen;
+      text-decoration: none;
+    }
+
+    .mobile-menu {
+      display: none;
+      gap: 1.9rem;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #202022;
+      opacity: 0.9;
+      padding: 20px;
+      position: fixed;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      margin-top: 2%;
+      margin-left: 5rem;
+    }
+
+    .header-icon {
+      color: white;
+      font-size: 2rem;
+    }
+
+    @media (min-width: 768px) {
+      .nav-bar a {
+        font-size: 1.2rem;
+      }
+
+      .nav-box2 a {
+        display: block;
+      }
+
+      .header-icon {
+        display: none;
+      }
+
+      .mobile-menu {
+        display: none;
+      }
+    }
+
+    /* Active link style */
+    .nav-box2 a.active,
+    .mobile-menu a.active {
+      color: yellowgreen;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <nav class='nav-bar'>
+    <div class="nav-box1">
+      <a href="/" class="nav-link">
+        <img src="/udyami logo.png" class="logo" alt="...">
+        <p>Udyami<br><span>Technologies</span></p>
+      </a>
     </div>
-  
-  </div> 
-</nav>
-<div class="mobile-menu">
- <a href = "/">Home</a>
-  <a href = "/about">About</a>
-  <a href = "/support">Our Supporters</a>
-  <a href = "/project">Project</a>  
-   <a href = "/contact">Contact</a>
-</div>
-
-
-
+    <div class="nav-box2">
+      <a href="/" id="home-link">Home</a>
+      <a href="/about" id="about-link">About</a>
+      <a href="/support" id="support-link">Our Supporters</a>
+      <a href="/project" id="project-link">Project</a>
+      <a href="/contact" id="contact-link">Contact</a>
+      <div class="header-icon">
+        <i class="fa fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-menu">
+    <a href="/" id="mobile-home-link">Home</a>
+    <a href="/about" id="mobile-about-link">About</a>
+    <a href="/support" id="mobile-support-link">Our Supporters</a>
+    <a href="/project" id="mobile-project-link">Project</a>
+    <a href="/contact" id="mobile-contact-link">Contact</a>
+  </div>

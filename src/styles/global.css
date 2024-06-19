@@ -374,63 +374,6 @@ i:hover{
 
 
 
-
-
-
-/*------------------------ blog-------------------- */
-/* CSS for Girls Section */
-#girls {
-    /* background-color: #333; */
-    padding: 40px 0;
-}
-
-.girl-profile {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.girl-profile img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-
-.girl-profile h3 {
-    font-size: 24px;
-    color: #ffffff;
-    margin-bottom: 10px;
-}
-
-.girl-profile p {
-    font-size: 16px;
-    color: #ffffff;
-    line-height: 1.5;
-    margin-bottom: 10px;
-}
-
-/* Responsive Design */
-@media screen and (max-width: 768px) {
-    .girl-profile {
-        margin-bottom: 20px;
-    }
-
-    .girl-profile img {
-        width: 120px;
-        height: 120px;
-        margin-bottom: 10px;
-    }
-
-    .girl-profile h3 {
-        font-size: 20px;
-    }
-
-    .girl-profile p {
-        font-size: 14px;
-    }
-}
-
-
 /*------------- footer page-------------- ------ */
 hr{
     margin-top: 7%;
@@ -488,6 +431,9 @@ footer {
   .icon-link i:hover {
     color:white;
     background-color: yellowgreen;
+  }
+  .icon-text :hover{
+    color: #ffffff;
   }
   
   .footer-box2, .footer-box3 {
@@ -567,106 +513,102 @@ footer {
 /*------------------ contact------------------ */
 
 .contact-container {
-    width: 100%; 
+  width: 100%; 
 }
 .contact-container h1 {
-  color:yellowgreen;
-  text-align: center;  
-  font-size: 2.5rem;
-  margin-top: 5rem;
+color: yellowgreen;
+text-align: center;  
+font-size: 2.5rem;
+margin-top: 5rem;
 }
 
 .information-container h2 {
-    color: white;
-    font-size: 1rem; 
-    font-weight: bold;
-    text-shadow: 2px 2px 8px #000;
-    text-align: center;   
-    margin-top: 2rem;
- }
-
- .information-container span {
-    color: yellowgreen;
+  color: white;
+  font-size: 1rem; 
+  font-weight: bold;
+  text-shadow: 2px 2px 8px #000;
+  text-align: center;   
+  margin-top: 2rem;
 }
-.information-container{
-    width: 100%;
-    background-color: #202025; 
-    
+
+.information-container span {
+  color: yellowgreen;
+}
+.information-container {
+  width: 100%;
+  background-color: #202025; 
 }
 
 .contact-udyami {    
-    background-color: #202025;   
-    margin-top: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 2rem;
+  background-color: #202025;   
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .contact-card {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    border-radius: 8px;   
-    width: 15rem;
-    height: 8rem;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   gap: 2rem;
- 
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;   
+  width: 15rem;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
 }
-
 
 .contact-card i {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: yellowgreen;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: yellowgreen;
 }
-.contact-card span{
-    font-size: 1rem;
-    color: white;
-    text-align: center;
+
+.contact-card i:hover {
+  color: #ffffff; /* Change this to the color you want on hover */
+}
+
+.contact-card span {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
 }
 
 @media (min-width: 764px) {
-  .contact-udyami{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-  }
-  .contact-container h1 {
-    font-size: 5rem;
-  }
-  .contact-card{
-    width: 17rem;
-    height: 15rem;
-  }
-  .contact-card i {
-    font-size: 2rem;
-  }
-  .contact-card span{
-    font-size: 1.3rem;
-  }
-  .text{
-    margin-top: 14rem;
-  }
- 
-  .contact-container img{
-    height:50rem;
-  }
- 
-  .contact-container h2 {
-    font-size: 3rem; 
-  
- }
- .contact-container h1 {
-  font-size: 4rem; 
- }
+.contact-udyami {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
-
-
-
+.contact-container h1 {
+  font-size: 5rem;
+}
+.contact-card {
+  width: 17rem;
+  height: 15rem;
+}
+.contact-card i {
+  font-size: 2rem;
+}
+.contact-card span {
+  font-size: 1.3rem;
+}
+.text {
+  margin-top: 14rem;
+}
+.contact-container img {
+  height: 50rem;
+}
+.contact-container h2 {
+  font-size: 3rem; 
+}
+.contact-container h1 {
+  font-size: 4rem; 
+}
+}
